@@ -1,4 +1,4 @@
-var hari = 21; 
+var tanggal = 21; 
 var bulan = 1; 
 var tahun = 1945;
 
@@ -39,4 +39,4 @@ switch (bulan){
     case 12: bulan = 'Desember';
 }
 
-console.log(hari+" "+bulan+" "+tahun);
+console.log(tanggal+" "+bulan+" "+tahun);
