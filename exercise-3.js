@@ -39,4 +39,4 @@ switch (bulan){
     case 12: bulan = 'Desember';
 }
 
-console.log(tanggal+" "+bulan+" "+tahun);
+console.log(tanggal+' '+bulan+' '+tahun);
