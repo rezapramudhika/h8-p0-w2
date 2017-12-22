@@ -1,29 +1,27 @@
 
-TUGAS 1
-
-BACA dan SIMPAN "angka pertama"
-BACA dan SIMPAN "angka kedua"
+//TUGAS 1
+SIMPAN "angka pertama"
+SIMPAN "angka kedua"
 HITUNG "angka pertama" dikali "angka kedua"
 SIMPAN hasil hitungan sebelumnya
 TULISKAN hasil hitungan
 
 
 
-TUGAS 2
+//TUGAS 2
+SIMPAN "kata"
+IF "kata" sama dengan "Saya Belajar JavaScript!" THEN:
+    TULISKAN "Pasti Bisa!"
+ENDIF
 
-BACA DAN SIMPAN "kata"
-IF "kata" sama dengan "Saya Belajar JavaScript!" MAKA
-TULISKAN "Pasti Bisa!"
 
-
-
-TUGAS 3
-
-BACA dan SIMPAN "angka tersimpan"
-BACA dan SIMPAN "i" sama dengan 1
+//TUGAS 3
+SIMPAN "angka tersimpan"
+SIMPAN "i" sama dengan 1
 ULANGI 
     "i" ditambah 1
-    IF "i" dimodulo 3 sama dengan 0 MAKA
-    TAMPILKAN nilai "i"
+    IF "i" dimodulo 3 sama dengan 0 THEN:
+        TAMPILKAN nilai "i"
+    ENDIF
 SAMPAI 
     "i" kurang dari sama dengan "angka tersimpan" 
