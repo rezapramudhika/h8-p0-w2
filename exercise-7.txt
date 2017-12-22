@@ -17,11 +17,8 @@ ENDIF
 
 //TUGAS 3
 SIMPAN "angka tersimpan"
-SIMPAN "i" sama dengan 1
-ULANGI 
-    "i" ditambah 1
+ULANGI pertambahan 1 dengan "angka mulai" sama dengan 1 sampai "angka tersimpan":
     IF "i" dimodulo 3 sama dengan 0 THEN:
         TAMPILKAN nilai "i"
     ENDIF
-SAMPAI 
-    "i" kurang dari sama dengan "angka tersimpan" 
+END ULANGI
