@@ -6,7 +6,7 @@ var input = [
 ]
 
 function dataHandling (insertData){
-    for(var i=0; i<=input.length-1; i++){
+    for(var i=0; i<=insertData.length-1; i++){
         console.log('Nomor ID: '+ insertData[i][0]);
         console.log('Nama Lengkap: '+insertData[i][1]);
         console.log('TTL: '+insertData[i][2]+' '+insertData[i][3]);
