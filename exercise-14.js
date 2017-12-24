@@ -54,12 +54,12 @@ function dataHandling2 (input){
     console.log(dateSplit.sort(function(value1, value2) { return parseInt(value1) < parseInt(value2)}));
 
     //join
-    var dateJoin = [dateSplit[1], dateSplit[2], dateSplit[0]]
+    var dateJoin = [dateSplit[1], dateSplit[2], dateSplit[0]];
     console.log(dateJoin.join('-'));
 
     //slice
-    var nameSlice = input[1].slice(0,15)
-    console.log(nameSlice)
+    var nameSlice = input[1].slice(0,15);
+    console.log(nameSlice);
 }
 
 //test case
