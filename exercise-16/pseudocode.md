@@ -74,7 +74,7 @@ function quiz(numberOfQuestion, correctAnswer, wrongAnswer){
             TULISKAN di console 'Jawaban anda benar!'
             Tambah nilai 'score' dengan 'correctAnswer';
         ELSE
-            TULISKAN di console nilai 'Jawaban anda salah!'
+            TULISKAN di console 'Jawaban anda salah!'
             Kurangi nilai 'score' dengan nilai 'wrongAnswer';
         ENDIF
         TULISKAN di console 'score' pengguna saat ini 
