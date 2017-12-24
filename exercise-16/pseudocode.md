@@ -1,12 +1,20 @@
-##PSEUDOCODE untuk quiz javascript
+# PSEUDOCODE untuk quiz javascript
 
+
+### Assign Variable
+
+'''
 TENTUKAN 'questionList' sama dengan array 2D yang berisi 10 soal beserta kunci jawabannya
 TENTUKAN 'score' sama dengan 0
 SIMPAN karakter kosong pada 'inputName'
 TENTUKAN 'numberOfQuestion' sama dengan 0
 TENTUKAN 'correctAnswer' sama dengan 0
 TENTUKAN 'wrongAnswer' sama dengan 0
+'''
 
+### Input Username
+
+'''
 READ 'inputName' dengan menggunakan prompt
 IF 'inputName' sama dengan karakter kosong THEN:
     TAMPILKAN alert yang berisi 'Nama harus diisi!'
@@ -16,7 +24,11 @@ IF 'inputName' sama dengan karakter kosong THEN:
 ELSE 
     CALL 'askForQuizLevel' dan isi parameternya dengan 'inputName'
 ENDIF
+'''
 
+### Ask for quiz level
+
+'''
 function askForQuizLevel(userName) {
     READ 'level' dengan menggunakan prompt
     CASE 'level' OF
@@ -46,7 +58,11 @@ function askForQuizLevel(userName) {
 
     CALL fungsi 'quiz' dan isi parameternya dengan 'numberOfQuestion', 'correctAnswer', 'wrongAnswer'
 }
+'''
 
+### Quiz question and answer
+
+'''
 function quiz(numberOfQuestion, correctAnswer, wrongAnswer){
     TULISKAN di console 'score' pengguna saat ini 
     Lakukan sort pada 'questionList' untuk mengacak urutan indexnya
@@ -66,7 +82,11 @@ function quiz(numberOfQuestion, correctAnswer, wrongAnswer){
 
     CALL fungsi 'result' dan isi parameternya dengan 'score'
 }
+'''
 
+### Quiz result
+
+'''
 function result(score){
     IF 'score' kurang dari sama dengan 25 THEN:
         TENTUKAN 'predicate' sama dengan 'Sangat Buruk'
@@ -82,3 +102,4 @@ function result(score){
 
     TAMPILKAN alert yang berisi 'predicate' dan 'score'
 }
+'''
